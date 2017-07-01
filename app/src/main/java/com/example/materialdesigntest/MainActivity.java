@@ -43,11 +43,11 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Data deleted", Snackbar.LENGTH_LONG)
-                        .setAction("Undo", new View.OnClickListener() {
+                Snackbar.make(view, "被你发现了！", Snackbar.LENGTH_LONG)
+                        .setAction("点我！", new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
-                                Toast.makeText(MainActivity.this, "Data restored", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(MainActivity.this, "什么也没有：）", Toast.LENGTH_SHORT).show();
                             }
                         })
                         .show();
